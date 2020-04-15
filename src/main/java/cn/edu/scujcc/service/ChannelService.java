@@ -91,7 +91,7 @@ public class ChannelService {
      }
      
      /**
-      * 指定更新频道
+      * 指定更新频道..
       * @param c
       * @return
       */
