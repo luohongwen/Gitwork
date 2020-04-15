@@ -129,7 +129,7 @@ public class ChannelService {
      }
      
      /**
-      * 获取冷门频道
+      * 获取冷门频道..
       */
      public List<Channel> findColdChannels() {
     	 return repo.findByCommentsNull();
