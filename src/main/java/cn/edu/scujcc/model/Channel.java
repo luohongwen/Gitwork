@@ -18,6 +18,11 @@ public class Channel {
     private String url;
     private List<Comment> comments;
     
+    
+    /**
+     * 返回所有频道评论
+     * @return
+     */
     public List<Comment> getComments() {
     	return comments;
     }
@@ -46,7 +51,7 @@ public class Channel {
 	}
 	@Override
 	public int hashCode() {
-		final int prime = 31;
+		final int prime = 37;
 		int result = 1;
 		result = prime * result + ((title == null) ? 0 : title.hashCode());
 		result = prime * result + ((url == null) ? 0 : url.hashCode());
